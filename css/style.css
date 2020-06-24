@@ -74,8 +74,8 @@ img {
   max-width: 100%;
   background-image: url(../images/table-bg.jpeg);
   background-size: cover;
-  background-position: fixed;
   background-position: center;
+  background-attachment: fixed;
 
 }
 
@@ -139,6 +139,9 @@ img {
   color: #000000;
   border-radius: 3px;
   background: rgb(231, 224, 224);
+  padding-left: 10px;
+
+  
 }
 
 .form-submit {
@@ -152,6 +155,7 @@ img {
   background: var(--main-yellow);
   width: 35%;
   margin: 15px auto;
+  padding-left: 0;
 }
 
 
