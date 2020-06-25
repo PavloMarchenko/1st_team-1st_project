@@ -84,6 +84,8 @@ img {
 a{
   color: black;
   font-weight: bold;
+  text-align: center;
+ 
 }
 a:hover{
   color: var(--main-yellow);
@@ -108,9 +110,6 @@ nav.black{
   background-color: black;
 }
 
-.navbar-collapse{
-  margin-left: 40%;
-}
 
 #home{
   background-image: url(../images/IMG_0066.jpg);
@@ -126,7 +125,8 @@ nav.black{
 
 .logo{
   width: 25%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+  margin-top: 20vh;
   
 }
 
@@ -148,14 +148,20 @@ nav.black{
   padding: 20px;
   margin: 50px auto;
   color: #000000;
+  text-align: center;
   
 }
-  p{
-    color: #000000;
-  }
+  
+p{
+ color: #000000;
+}
+
+  
 .navbar-collapse{
   margin: 0 auto;
+  width: 100%;
 }
+
   
 .navbar-light .navbar-toggler {
   color: rgba(0,0,0,.5);
@@ -164,7 +170,10 @@ nav.black{
 
 .navbar-light .navbar-toggler.black{
   border-color: var(--main-yellow);
+  background-color: var(--main-yellow);
+
 }
+
 
 
 /* end own style*/
@@ -184,19 +193,20 @@ nav.black{
 
 
 @media screen and (max-width: 1199px) {
-  
 }
 
 @media screen and (max-width: 991px) {
-
+ 
 }
 
 @media screen and (max-width: 760px) {
-
+  
 }
 
 @media screen and (max-width: 575px) {
   
+}
 
 @media (max-width: 360px) {
- 
+  
+}
