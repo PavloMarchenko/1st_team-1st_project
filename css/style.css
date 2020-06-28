@@ -194,6 +194,26 @@ h2,h4,h5,p{
   -webkit-filter: grayscale(0%)
 }
 
+span.x{
+  color: black;
+}
+
+/* About */
+.about-bg-100vw {
+  max-width: 100%;
+  background-image: url(../images/about-us.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+.text-about{
+  background-color: rgba(255,255,255, 0.8);
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+}
+
 /* Contacts */
 
 .cont-bg-100vw {
