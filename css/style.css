@@ -179,8 +179,20 @@ p{
 
 /* end own style*/
 
+/* WORK-block */
+h2,h4,h5,p{
+  color: black;
+}
 
+.w-100{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%)
+}
 
+.w-100:hover{
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%)
+}
 
 /* Contacts */
 
