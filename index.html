@@ -12,30 +12,62 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
   <title>Stoliary</title>
 </head>
 <body>
-  
+ <!--Navbar-->
+ 
+ <!--Navbar-->
+ 
+  <!--HOME-->
+ 
+  <!--HOME-->
 
-<!-- Contacts -->
-<div class="contact-block">
-  <div class="container">
+  <!--PRODUCTS-->
+ 
+   <!--PRODUCTS-->
+
+   <!--WORK-->
+ 
+   <!--WORK-->
+
+   <!--ABOUT-->
+
+
+
+<!--HANDMADE-->
+   <div class="container">
     <div class="row">
       <div class="col-12 d-flex title-contact">
-        <div class="main-title" >Контакти</div>
+        <div class="main-title">Why handmade?</div>
+      </div>
+      <div class="col-12 hand-made-class align-self-start">
+        <div class="why-handmade-description">
+          <span>Ми-це якісні та стильні меблі. <br>
+            Наша майстерня зародилась тоді, коли два ініціативних юнака об'єдналися, щоб разом реалізовувати різні цікаві столярні проекти.
+            Згодом з'явився і бренд<p><b>Stoliari.</b></p>
+           Майстерня на початку була націлена здебільшого на соціальну діяльність.Наша команда спільно з громадською організацією "Інша Освіта" організовувала майстер-класи в рамках проекту "Наново", а також долучалась до різноманітних соціальних та мистецьких ініціатив в рамках проекту "CITY SCANNING SESSION '19 MANUFUTURING" спільно з громадською організацією <p>"MetaLab".</p> <br>
+           Зараз майстерня активно розвивається в напрямку реалізації комерційних проектів. Ми займаємось виготовленням меблів із дерева під різноманітні дизайн-проекти і не тільки, 
+           виготовляємо столи із епоксидної смоли а також займаємся розробкою і виготовленням серійної продукції із дерева.</span>
+        </div>
       </div>
     </div>
-  </div>
-</div>  
+  </div>      
+<!--HANDMADE-->
+
+<!-- Contacts -->
 
 <div class="cont-bg-100vw">
 <div class="container">
   <div class="row">
+   <div class="col-12 d-flex title-contact">
+    <div class="main-title" >Контакти</div>
+   </div>
    <div class="container-contacts col-12">
         <span class="text-above-form">Наша пошта: <br> 
-          <a href="#">stoliariua.@gmail.com</a>
+          <a href="mailto:stoliariua.@gmail.com">stoliariua.@gmail.com</a>
         </span> 
-
-       <span class="text-above-form"> Телефон: <br> 
-          +38 99 302 02 95
-       </span>
+        
+        <span class="text-above-form">Телефон: <br>
+         <a href="tel:+38993020295">+38 99 302 02 95</a>
+        </span>
 
        <span class="social-media text-above-form">Ми в соц. мережах: <br> 
          <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fstoliari.if%2F%3Ffbclid%3DIwAR30vqb7cnc1INkG27ED7dZxQIMOKmUDowu4P0c0mDGbDK5Y3bOKO-Yr8Vc&h=AT3BtR4suypHPVxQNdKYyRFuf3XL-xMc2cMWvetlc1rI5hW3o00b7HGbdiCMbPncQdkIYS3eJFU3PrGlFcToxbbllJOtUoLtm9PytXrqs_0tsJwgsoNsyFgDDbo-ct5y4Aovlw"><i class="fab fa-instagram sm-icons"></i> </a>    <a href="https://www.facebook.com/Stoliari-110020113761236"><i class="fab fa-facebook sm-icons"></i></a>
@@ -44,15 +76,15 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
        
         <div class="form-submit">
           <span class="text-above-form">Виникли питання?<br> Напишіть нам:</span>
-          <form class="form" action="#">
-            <input placeholder="Введіть Ваше ім'я" type="text">
-            <input placeholder="Введіть E-mail" type="email">
-            <textarea name="type message" id="" cols="30" rows="5" placeholder="Введіть повідомлення"></textarea>
+          <form class="form" id="contactForm">
+            <input placeholder="Введіть Ваше ім'я" type="text" name="name">
+            <input placeholder="Введіть E-mail" type="email" name="email">
+            <textarea cols="30" rows="5" placeholder="Введіть повідомлення" name="message"></textarea>
             <button type="submit" class="form-btn">Відправити</button>
          </form>
        </div>
       </div>
-  </div> 
+   </div> 
 </div>  
 </div>
 
@@ -98,7 +130,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
     var marker = new google.maps.Marker({position: uluru, map: map});
   }
       </script>
-      <!--Load the API from the specified URL
+      * Load the API from the specified URL
       * The async attribute allows the browser to render the page while the API loads
       * The key parameter will contain your own API key (which is not needed for this tutorial)
       * The callback parameter executes the initMap() function
@@ -109,8 +141,9 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 
 
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>   --> -->
+  <!-- <script src="js/main.js"></script>   -->
+  <script src="js/main.js"></script>
 </body>
 </html>
