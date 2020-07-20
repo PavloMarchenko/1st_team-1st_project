@@ -88,6 +88,10 @@ img {
   margin: 0 auto;
 }
 
+.why-handmade-description{
+  height: 110vh;
+}
+
 
 b {
   color: black;
@@ -233,19 +237,25 @@ b {
 }
 
 @media screen and (max-width: 991px) {
-
+  
 }
 
 @media screen and (max-width: 760px) {
-  .why-handmade-description span{
-    max-width: 100vw;
-  }
+ 
 }
 
 @media screen and (max-width: 575px) {
+  .why-handmade-description span{
+    max-width: 100vw;
+  }
+
+  .hand-made-class{
+    height: 95vh;
+  }
+  
 
 }
 
 @media (max-width: 360px) {
- 
+  
 }
